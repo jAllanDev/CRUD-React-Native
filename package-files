@@ -1,11 +1,17 @@
-npx expo install react-dom react-native-web @expo/metro-runtime
+Configuração do Ambiente de Desenvolvimento
+
+Instalar Node.js → https://nodejs.org/en
+
 npx create-expo-app prova --template blank
+
 cd prova
 
+npx expo install react-dom react-native-web @expo/metro-runtime
 
+npx expo start
 
-
-
+Baixando Bibliotecas:
 npm install @react-navigation/bottom-tabs
 npm install @react-native-picker/picker
 npm install @react-navigation/native
+npm install @react-navigation/drawer
