@@ -6,7 +6,7 @@ import TextInputBox from '../../Componentes/TextInputBox/TextInputBox';
 import { useState, useEffect } from 'react';
 
 export default function ProfileScreen() {
-  const [resultado, setResultado] = useState();
+  const [resultado, setResultado] = useState('');
   const [num1, setNum1] = useState(0);
   const [num2, setNum2] = useState(0);
 
@@ -42,7 +42,7 @@ export default function ProfileScreen() {
   
 
 </View>
-<Text style={{ marginTop: 50, fontSize: 20, fontWeight: 'bold' }}>Resultado: {resultado}</Text>
+<Text style={{ marginTop: 50, fontSize: 20, fontWeight: 'bold' }}>{resultado}</Text>
 
 <StatusBar style="auto" />
     </View>
