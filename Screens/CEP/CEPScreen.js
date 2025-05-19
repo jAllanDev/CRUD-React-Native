@@ -31,8 +31,8 @@ function CEPScreen() {
           />
         
           <Text style={styles.mensagem}>
-            {endereco ? `Seu endereço: ${endereco.logradouro}` : 'Insira o CEP'}
-            
+            {endereco ? `Seu endereço: ${endereco.logradouro} ${endereco.bairro} ${endereco.estado} ${endereco.localidade}` : 'Insira o CEP'}
+         
             </Text>
         <StatusBar style="auto" />
       </View>

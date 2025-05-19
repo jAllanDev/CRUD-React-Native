@@ -7,6 +7,7 @@ import ProfileScreen from './Screens/Profile/ProfileScreen';
 import CadastroScreen from './Screens/Cadastro/CadastroScreen';
 import { CadastroScreenNavigator } from './Screens/Cadastro/CadastroScreen';
 import CEPScreen from './Screens/CEP/CEPScreen';
+import AgendaScreen from './Screens/Agenda/AgendaScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -19,6 +20,7 @@ export default function App() {
         <Tab.Screen name="Profile" component={ProfileScreen} />
         <Tab.Screen name="Cadastro" component={CadastroScreenNavigator} />
         <Tab.Screen name="CEP" component={CEPScreen} />
+        <Tab.Screen name="Agenda" component={AgendaScreen} />
       </Tab.Navigator>
       <StatusBar style="auto" />
     </NavigationContainer>
